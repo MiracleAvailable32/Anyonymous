@@ -1,0 +1,17 @@
+ {
+  "manifest_version": 2,
+  "name": "Roblox Cookie Manager",
+  "version": "1.0",
+  "permissions": [
+    "cookies",
+    "https://%2A.roblox.com/*",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+} 
